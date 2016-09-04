@@ -26,7 +26,7 @@ sudo apt-get update -qq
 sudo apt-get install -y xauth git curl
 
 cd $HOME
-git clone path https://github.com/garcias/cloud9-vnc.git
+git clone https://github.com/garcias/cloud9-vnc.git
 cloud9-vnc/install.sh
 
 SCRIPT
