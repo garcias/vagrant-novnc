@@ -29,8 +29,6 @@ cd $HOME
 git clone path https://github.com/garcias/cloud9-vnc.git
 cloud9-vnc/install.sh
 
-cp /vagrant/install-chrome.sh ./
-
 SCRIPT
 
 $SYSTEM_START = <<SCRIPT
