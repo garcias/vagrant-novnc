@@ -36,6 +36,6 @@ $SYSTEM_START = <<SCRIPT
 echo $HOME
 cd $HOME/cloud9-vnc
 export PORT=8080
-./run.sh &
+./run.sh
 
 SCRIPT
