@@ -34,7 +34,6 @@ SCRIPT
 $SYSTEM_START = <<SCRIPT
 
 cd $HOME/cloud9-vnc
-export PORT=8080
-./run-fluxbox.sh
+./run.sh /vagrant/fluxbox.conf
 
 SCRIPT
